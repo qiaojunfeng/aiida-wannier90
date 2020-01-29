@@ -335,6 +335,7 @@ class Wannier90Calculation(CalcJob):
                 '{}_wsvec.dat'.format(self._SEEDNAME),
                 '{}_hr.dat'.format(self._SEEDNAME),
                 '{}_centres.xyz'.format(self._SEEDNAME),
+                '{}.win'.format(self._SEEDNAME)
             ]
 
         # Retrieves bands automatically, if they are calculated
