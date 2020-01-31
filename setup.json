@@ -4,7 +4,8 @@
       "wannier90.wannier90 = aiida_wannier90.calculations:Wannier90Calculation"
     ],
     "aiida.parsers": [
-      "wannier90.wannier90 = aiida_wannier90.parsers:Wannier90Parser"
+      "wannier90.wannier90 = aiida_wannier90.parsers:Wannier90Parser",
+      "wannier90.postwannier90 = aiida_wannier90.postparsers:PostWannier90Parser"
     ],
     "aiida.data": []
   },
